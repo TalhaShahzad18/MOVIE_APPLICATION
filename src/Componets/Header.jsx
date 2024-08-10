@@ -11,27 +11,27 @@ function Header() {
     const [toggle,setToggle]=useState(false);
     const menu=[
         {
-            name:'HOME',
+            name:'Home',
             icon:HiHome
         },
         {
-            name:'SEARCH',
+            name:'Search',
             icon:HiMagnifyingGlass
         },
         {
-            name:'WATCH LIST',
+            name:'Watch List',
             icon:HiPlus
         },
         {
-            name:'ORIGINALS',
+            name:'Originals',
             icon:HiStar
         },
         {
-            name:'MOVIES',
+            name:'Movies',
             icon:HiPlayCircle
         },
         {
-            name:'SERIES',
+            name:'Series',
             icon:HiTv
         }
     ]
